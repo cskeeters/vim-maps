@@ -8,3 +8,7 @@ imap <buffer> <C-k> <Plug>(unite_insert_leave)
 nmap <buffer> <ESC> <Plug>(unite_exit)
 nmap <buffer> <C-j> j
 nmap <buffer> <C-k> k
+
+" Clear cache and redraw
+map <buffer> <C-l> <Plug>(unite_redraw)
+imap <buffer> <C-l> <Plug>(unite_redraw)
