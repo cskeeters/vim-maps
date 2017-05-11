@@ -1,4 +1,4 @@
-set formatprg=astyle\ -s4pb
+" set formatprg=astyle\ -s4pb
 set commentstring=//%s
 
 nnoremap <buffer> <C-k>k :make -j4 \| cwindow<CR>
