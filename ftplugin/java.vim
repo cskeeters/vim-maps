@@ -5,3 +5,10 @@ nmap <buffer> K <Plug>JavadocOpen
 nmap <buffer> <leader>ch <Plug>JCallOpen
 nmap <buffer> <f3> <Plug>JCallJump
 nmap <buffer> <leader>cch <Plug>JCallClear
+
+setlocal makeprg=ant
+
+compiler ant
+set makeprg=ant\ -emacs\ -q\ -find\ build.xml\ -l\ .ant.log
+set makeef=.ant.log
+set errorformat=%A%f:%l:\ %m,%-Z%p^,%-C%.%#
