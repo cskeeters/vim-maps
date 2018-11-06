@@ -6,6 +6,9 @@ nmap <buffer> <leader>ch <Plug>JCallOpen
 nmap <buffer> <f3> <Plug>JCallJump
 nmap <buffer> <leader>cch <Plug>JCallClear
 
+"cskeeters/vim-log4j
+nmap <buffer> <leader>l :Log4jDebug<cr>
+
 setlocal makeprg=ant
 
 compiler ant
