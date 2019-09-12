@@ -15,3 +15,6 @@ compiler ant
 set makeprg=ant\ -emacs\ -q\ -find\ build.xml\ -l\ .ant.log
 set makeef=.ant.log
 set errorformat=%A%f:%l:\ %m,%-Z%p^,%-C%.%#
+
+" Macro that transforms copied text from java api into import statement
+let @i="i*a;kkIimport Jcf ."
