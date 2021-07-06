@@ -9,12 +9,7 @@ nmap <buffer> <leader>cch <Plug>JCallClear
 "cskeeters/vim-log4j
 nmap <buffer> <leader>l :Log4jDebug<cr>
 
-setlocal makeprg=ant
-
-compiler ant
-set makeprg=ant\ -emacs\ -q\ -find\ build.xml\ -l\ .ant.log
-set makeef=.ant.log
-set errorformat=%A%f:%l:\ %m,%-Z%p^,%-C%.%#
+" compiler ant
 
 " Macro that transforms copied text from java api into import statement
 let @i="i*a;kkIimport Jcf ."
